@@ -17,4 +17,4 @@
     become_user : root
 
   - name: Deploy Docker Container
-    command: docker run -itd -p 8086:8081 kartseka1/insurance-karthi:3.0
+    command: docker run -itd -p 8086:8081 kartseka1/insurance-karthi:1.0
